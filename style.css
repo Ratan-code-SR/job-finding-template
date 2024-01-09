@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-sarif;
+}
+
+.menu-bar {
+    background: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.nav-link {
+    color: white !important;
+    font: 15px;
+
+}
+
+/* bg-img */
+.bg-img {
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.text-bg {
+    padding: 109px;
+}
+
+.text-bg h1 {
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+/*  */
+.search-job.text-center {
+    margin: -50px 5% 50px;
+    padding: 30px 0;
+    background: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+input.form-control {
+    max-width: 250px;
+    display: inline-flex;
+    margin: 13px 6px;
+    border-radius: 0;
+}
+
+.ratan {
+    padding: 5px 4px;
+    background: #0062cc;
+    border-color: #0078d7;
+    color: white;
+    border-radius: 3px;
+}
+
+.ratan:hover {
+    background: #0078d7;
+}
+
+/* --------------recruiters-section------------------- */
+.recruiters-section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.recruiters-section h3 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.recruiters-section h3::before {
+    content: " ";
+    background: linear-gradient(to right, #6db9ef, #7ce08a);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -21px;
+    border-top-left-radius: 87px;
+    border-bottom-right-radius: 90px;
+}
+
+.recruiters-section img {
+    max-width: 100px;
+    margin: 10px 20px;
+
+}
+
+/* ---------------------- jobd-section here --------------------- */
+.job-marquee {
+    color: black;
+    font-size: 20px;
+}
+
+.pages {
+    border: 1px solid gray;
+    padding-top: 4px;
+    transition: .5s;
+}
+
+.pages:hover {
+    background: #dee2e6;
+}
+
+.company-details {
+    box-shadow: 0 2px 70px 0 rgba(110, 130, 208, .18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.jobs-updets {
+    padding: 19px 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.jobs-updets .fa-solid {
+    color: #77d1b1;
+    margin-right: 10px;
+}
+
+.button {
+    background: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.button p {
+    font-size: 20px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.jobs-updets p span {
+    color: red;
+}
+
+.jobs-updets h3 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+span.span-4 {
+    background: #efefef;
+    padding: 2px 5px;
+}
+
+.pages li {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    list-style: none;
+}
+
+li.arrow-left {
+    background: #75ccbe;
+}
+
+.pages li:hover {
+    background: #75ccbe;
+}
+
+
+/* ----------------status site section --------------------- */
+section.status-site.py-5 {
+    margin-top: 70px;
+}
+
+.status-site h3::before {
+    content: " ";
+    background: linear-gradient(to right, #6db9ef, #7ce08a);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -21px;
+    border-top-left-radius: 87px;
+    border-bottom-right-radius: 90px;
+}
+
+.status-items {
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+}
+
+
+.status-items.text-center i {
+    font-size: 30px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+/* ------------------find-job-section------------------- */
+.find-job-section {
+    background: linear-gradient(to right, #6db9ef, #7ce08a);
+    height: 300px;
+}
+
+.find-job-section h3 {
+    color: white;
+    margin-top: 23px;
+    font-size: 30px;
+}
+
+.imges-find-jobs img {
+    width: 150px;
+    margin: 50px 0;
+}
+
+/*-----------------------footer section here---------------------------- */
+.footer-section {}
+
+.footer-link img {
+    width: 50px;
+    margin: 20px 0;
+}
